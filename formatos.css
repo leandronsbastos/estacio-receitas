@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    position: relative;
+    top: 20vh;
+    width: 100%;
+    height: 80vh;
+    background-color: #e3e5e8;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav {
+    height: 80px;
+    background-color: #ada1f8;
+    width: 100%;
+    position: absolute;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: dotted;
+    font-size: 25px;
+    color: #000000;
+    padding-left: 20px;
+    position: relative;
+    top: 10px;
+}
+
+ul li a:hover {
+    color: #000000;
+}
+
+img.logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 2px;
+}
+
+
+
+h1 {
+    margin-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 40px;
+}
+
+.h2-home {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.text-capitalize {
+    margin-top: 90px;
+}
+
+.altura {
+    height: 5vh;
+}
+
+.altura h3 {
+    font-size: 16px;
+    padding: 12px;
+}
+
+/*Página do Obrigado*/
+
+.Obrigado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #cbdadca6;
+    flex-direction: column;
+ }
+ .text{
+     font-size: 45px;
+     color: 7px 7px 13px 0px rgba(127, 113, 190, 0.22);
+     margin-bottom: 30px;
+ }
+ .paragrafo{
+     color: 7px 7px 13px 0px rgba(127, 113, 190, 0.22);
+     margin-bottom: 50px;
+ }
+ .btn{
+     padding: 15px 55px;
+     background: #f5f5f5;
+     border-radius: 8px #000000;
+     text-decoration: none;
+     color: #101026;
+     font-size: 18px;
+     transition: all 0.5s;
+ }
+ .btn:hover{
+     border-radius: 16px;
+ }
